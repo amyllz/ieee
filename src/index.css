@@ -1,0 +1,44 @@
+body {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  min-height: 100%;
+  height: auto;
+  background-color: white;
+  z-index: 0;
+  text-align: center;
+  font-family: 'Montserrat';
+  min-height: 650px;
+  min-width: 950px;
+}
+
+.bottomdiv{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  background-color: rgba(0,0,0,0.6);
+  line-height: 80px;
+  color: rgb(200,200,200);
+}
+
+.line{
+  border-bottom: 1px solid #e8e8e8;
+}
+.line .ant-menu-horizontal{
+  border: none;
+}
+
+.content{
+  text-align: left;
+  width: 80%;
+  max-width: 1100px;;
+  margin-top: 30px;
+}
+
+.title{
+  border-left: solid 2px #1890ff;
+  padding-left: 10px;
+}
