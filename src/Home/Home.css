@@ -10,7 +10,8 @@ body{}
 }
 
 .Home-picdiv p{
-    font-size: 20px;
+    font-size: 40px;
     font-weight: bold;
     margin: 20px;
+    color: white;
 }
