@@ -36,7 +36,7 @@ export default class MenuContent extends Component {
                             <a href="/CallforPapers">Call for Papers</a>
                         </Menu.Item>
                         <SubMenu title={<span>General Info.&nbsp;&nbsp;<Icon type="down" /></span>}>
-                            <Menu.Item key="VisitSheffield"><a href="/VisitSheffield">Visit Sheffield</a></Menu.Item>
+                            <Menu.Item key="VisitSheffield"><a href="/VisitSheffield">Visit Hangzhou</a></Menu.Item>
                             <Menu.Item key="WorkshopVenue"><a href="/WorkshopVenue">Workshop Venue</a></Menu.Item>
                             <Menu.Item key="HotelBooking"><a href="/HotelBooking">Hotel Booking</a></Menu.Item>
                         </SubMenu>

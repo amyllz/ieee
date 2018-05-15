@@ -17,7 +17,7 @@ export default class Sponsorship extends Component {
           <div className='content'>
             <h2 className='title'>Sponsorship</h2>
             <p>The SAM Workshop is an important IEEE Signal Processing Society event dedicated to sensor array and multichannel signal processing with about 200 participants. SAM 2020 will feature plenary talks by leading researchers in the field as well as poster and oral sessions with presentations by the participants.</p>
-            <p>If you are interested in sponsoring this event, please contact the General Chair, Prof. Zhiguo Shi email: shizg@zju.edu.cn.</p>
+            <p>If you are interested in sponsoring this event, please contact the General Chair, Prof. Zhiguo Shi, via email: shizg@zju.edu.cn.</p>
             <p>We look forward to working with you.</p>
           </div>
         </Row>
