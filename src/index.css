@@ -12,10 +12,7 @@ body {
   min-height: 650px;
   min-width: 950px;
 }
-#navbar .ant-menu-horizontal > .ant-menu-item, .ant-menu-horizontal > .ant-menu-submenu{
-  background: #1890ff;
-  border-bottom: none !important;
-}
+
 .bottomdiv{
   position: absolute;
   bottom: 0;
@@ -25,30 +22,6 @@ body {
   background-color: rgba(0,0,0,0.6);
   line-height: 80px;
   color: rgb(200,200,200);
-}
-#navbar .ant-menu-submenu-selected{
-  background: #007ABF !important;
-}
-#navbar  .ant-menu-item-selected{
-  background: #007ABF !important;
-}
-#navbar .ant-menu-item:hover{
-  background: #007ABF;
-}
-#navbar .ant-menu-item a{
-  color: white;
-}
-#navbar .ant-menu-submenu-title:hover{
-  background: #007ABF;
-}
-#navbar .ant-menu-submenu-title span{
-  color: white;
-}
-.line{
-  border-bottom: 1px solid #e8e8e8;
-}
-.line .ant-menu-horizontal{
-  border: none;
 }
 
 .content{
@@ -61,4 +34,36 @@ body {
 .title{
   border-left: solid 2px #1890ff;
   padding-left: 10px;
+}
+.ant-menu-horizontal{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(0,97,172) !important;
+  border-bottom: 1px solid rgb(0,97,172) !important;
+}
+
+.ant-menu-horizontal > .ant-menu-item, .ant-menu-horizontal > .ant-menu-submenu{
+  border-bottom: 1px solid rgb(0,122,191) !important;
+}
+.ant-menu-submenu-selected{
+  background: rgb(0,122,191) !important;
+}
+.ant-menu-item-selected{
+  background: rgb(0,122,191) !important;
+}
+.ant-menu-item:hover{
+  background: rgb(0,122,191) !important;
+  color: white !important;
+}
+.ant-menu-item a{
+  color: white !important;
+}
+.ant-menu-submenu-title:hover{
+  background: rgb(0,122,191) !important;
+}
+.ant-menu-submenu-title span{
+  color: white;
+}
+.ant-menu-submenu > .ant-menu{
+  background-color: rgb(0,97,172) !important;
 }
