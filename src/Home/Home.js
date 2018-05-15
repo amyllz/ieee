@@ -20,7 +20,7 @@ export default class Home extends Component {
             <p>THE ELEVENTH IEEE SENSOR ARRAY AND </p>
             <p>MULTICHANNEL SIGNAL PROCESSING WORKSHOP</p>
             <p>8TH-11TH JUNE 2020</p>
-            <p>HANGZHOU CHINA</p>
+            <p>HANGZHOU, CHINA</p>
           </div>
         </Row>
         <div className='bottomdiv'>
