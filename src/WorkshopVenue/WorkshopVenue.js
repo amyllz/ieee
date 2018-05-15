@@ -17,12 +17,14 @@ export default class WorkshopVenue extends Component {
         <Row type="flex" justify="center" >
           <div className='content'>
             <h2 className='title'>Workshop Venue</h2>
-            <p>The workshop will be held at Hangzhou Jinxi Villa, a hotel surrounded by West Lake, which opened its doors in 1998.</p>
-            <p>Workshop banquet will be held on 8th June 2020 at the Meeting Room.</p>
-            <img src={require("./location.jpg")} style={{ height: "300px" }} alt="hangzhou" />
+            <p>The workshop will be held at Hangzhou Jinxi Villa, a hotel surrounded by West Lake.</p>
+            <img src={require("./location.jpg")} style={{ width: "500px" }} alt="hangzhou" />
+            <img src={require("./location2.jpg")} style={{ width: "500px", marginTop: '14px' }} alt="hangzhou" />
+            <p style={{ marginTop: '14px' }}>Workshop banquet will be held in the Shan Wai Shan Restaurant, located in Hangzhou Botanical Garden.</p>
+            <img src={require("./rest.jpg")} style={{ width: "500px" }} alt="hangzhou" />
           </div>
         </Row>
-        <div className='bottomdiv'>
+        <div className='Organisation-bottomdiv'>
           @Colledge of Information Science & Electronic Engineering, Zhejiang University
         </div>
       </div>
