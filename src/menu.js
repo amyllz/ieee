@@ -22,7 +22,7 @@ export default class MenuContent extends Component {
     render() {
         return (
             <Row type="flex" justify="center" align="top" className='line'>
-                <div style={{ width: '930px', height: '109px' }}>
+                <div style={{ width: '930px', height: '108px' }} id="navbar">
                     <a href='/'><img src={require("./topLogo.png")} style={{ width: "300px", marginTop: "20px" }} alt="topLogo" /></a>
                     <Menu
                         onClick={this.handleClick}

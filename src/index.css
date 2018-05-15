@@ -12,7 +12,10 @@ body {
   min-height: 650px;
   min-width: 950px;
 }
-
+#navbar .ant-menu-horizontal > .ant-menu-item, .ant-menu-horizontal > .ant-menu-submenu{
+  background: #1890ff;
+  border-bottom: none !important;
+}
 .bottomdiv{
   position: absolute;
   bottom: 0;
@@ -23,7 +26,24 @@ body {
   line-height: 80px;
   color: rgb(200,200,200);
 }
-
+#navbar .ant-menu-submenu-selected{
+  background: #007ABF !important;
+}
+#navbar  .ant-menu-item-selected{
+  background: #007ABF !important;
+}
+#navbar .ant-menu-item:hover{
+  background: #007ABF;
+}
+#navbar .ant-menu-item a{
+  color: white;
+}
+#navbar .ant-menu-submenu-title:hover{
+  background: #007ABF;
+}
+#navbar .ant-menu-submenu-title span{
+  color: white;
+}
 .line{
   border-bottom: 1px solid #e8e8e8;
 }
