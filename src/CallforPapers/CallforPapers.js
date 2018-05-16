@@ -54,11 +54,11 @@ export default class CallforPapers extends Component {
             <p><span className='CallforPapers-highlight'>Special Session Proposals – </span>They should be submitted by e-mail to the Technical Program Chairs and the Special Sessions Chair by 15th September, 2019, and include a title, rationale, session outline, contact information and list of invited speakers. </p>
             <p><span className='CallforPapers-highlight'>Tutorial Proposals – </span>They should be submitted by e-mail to the Technical Chairs (André L. F. De Almeida: andre@gtel.ufc.br;  Qian He: qianhe@uestc.edu.cn) and the General Chairs (Zhiguo Shi: shizg@zju.edu.cn; Martin Haardt: martin.haardt@tu-ilmenau.de) and include a title, rationale, outline of the content and contact information by <span className='CallforPapers-highlight'>15 December, 2019.</span></p>
             <p><span className='CallforPapers-highlight'>Important Dates:</span></p>
-            <p>Special Session Proposals: 15th September, 2019</p>
-            <p>Submission of Papers:  15th December, 2019 </p>
-            <p>Notification of Acceptance:  15th February , 2020</p>
-            <p>Final Manuscript Submission:  15th March, 2020</p>
-            <p>Advance Registration  15th April, 2020</p>
+            <p>Special Session Proposals: September 15, 2019</p>
+            <p>Submission of Papers:  December 15, 2019 </p>
+            <p>Notification of Acceptance:  February 15, 2020</p>
+            <p>Final Manuscript Submission:  March 15, 2020</p>
+            <p>Advance Registration:  April 15, 2020</p>
           </div>
         </Row>
         <div className='CallforPapers-bottomdiv'>
