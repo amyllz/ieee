@@ -25,7 +25,7 @@ export default class PreviousInfo extends Component {
             <p><a href='http://sam2016.cetuc.puc-rio.br' target='_blank'>SAM 2016: Website</a></p>
 
             <p className='PreviousInfo-highlight'>SAM 2014</p>
-            <p>June 22-25, A Coruna, Spain</p>
+            <p>June 22-25, 2014, A Coruna, Spain</p>
             <p><a href='http://signalprocessingsociety.org/SAM2014/index-2.html' target='_blank'>SAM 2014: Website</a></p>
 
             <p className='PreviousInfo-highlight'>SAM 2010</p>
