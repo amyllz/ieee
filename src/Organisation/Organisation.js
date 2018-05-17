@@ -22,7 +22,7 @@ export default class Organisation extends Component {
             <p>Martin Haardt, TU Ilmenau, Germany</p>
             <p>Zhiguo Shi, Zhejiang University, China</p>
             <p className='Organisation-title'>Technical Chairs</p>
-            <p>André L. F. De Almeida, Federal U Ceará, Brazil</p>
+            <p>André L. F. De Almeida, Federal University of Ceará, Brazil</p>
             <p>Qian He, University of Electronic Science and Technology of China, China</p>
             <p className='Organisation-title'>IEEE SAM TC Representative</p>
             <p>Mónica Bugallo, Stony Brook University, US</p>
