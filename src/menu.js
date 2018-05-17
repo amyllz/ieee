@@ -55,8 +55,8 @@ export default class MenuContent extends Component {
                         <Menu.Item key="Registration">
                             <a href="/Registration">Registration</a>
                         </Menu.Item>
-                        <Menu.Item key="PreviousInfo">
-                            <a href="/PreviousInfo">Previous Info.</a>
+                        <Menu.Item key="PreviousSAMs">
+                            <a href="/PreviousSAMs">Previous SAMs</a>
                         </Menu.Item>
                     </Menu>
                 </div>
