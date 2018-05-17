@@ -14,6 +14,7 @@ import SpecialSessions from './SpecialSessions/SpecialSessions';
 import ConferenceProgramme from './ConferenceProgramme/ConferenceProgramme';
 import PaperSubmission from './PaperSubmission/PaperSubmission';
 import Registration from './Registration/Registration';
+import PreviousInfo from './PreviousInfo/PreviousInfo';
 
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
@@ -33,6 +34,7 @@ ReactDOM.render(
             <Route path='/ConferenceProgramme' component={ConferenceProgramme} />
             <Route path='/PaperSubmission' component={PaperSubmission} />
             <Route path='/Registration' component={Registration} />
+            <Route path='/PreviousInfo' component={PreviousInfo} />
         </Switch>
     </Router>
     , document.getElementById('root'));
